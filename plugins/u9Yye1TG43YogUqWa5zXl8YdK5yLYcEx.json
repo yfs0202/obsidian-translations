@@ -1,0 +1,1246 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "better-plugins-manager",
+        "version": "1.0.0",
+        "title": "Better Manager",
+        "description": "Better Manager Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.14",
+        "author": "yfs"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "merge",
+                    "target": "merge"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "exact",
+                    "target": "exact"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ignore",
+                    "target": "ignore"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "enable",
+                    "target": "enable"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "disable",
+                    "target": "disable"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-troubleshoot-page manager-troubleshoot",
+                    "target": "manager-troubleshoot-page manager-troubleshoot"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-troubleshoot__actions manager-troubleshoot__actions--secondary",
+                    "target": "manager-troubleshoot__actions manager-troubleshoot__actions--secondary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-hidden-toolbar ribbon-manager-toolbar",
+                    "target": "manager-hidden-toolbar ribbon-manager-toolbar"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-bulk-bar manager-editor-bar",
+                    "target": "manager-bulk-bar manager-editor-bar"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "bpm-empty-state manager-plugin-page__empty",
+                    "target": "bpm-empty-state manager-plugin-page__empty"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-modal-page manager-item-container",
+                    "target": "manager-modal-page manager-item-container"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-food manager-header__stats",
+                    "target": "manager-food manager-header__stats"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-section manager-section--actions",
+                    "target": "manager-section manager-section--actions"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-section manager-section--filters",
+                    "target": "manager-section manager-section--filters"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-food bpm-mobile-header__stats",
+                    "target": "manager-food bpm-mobile-header__stats"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-hidden-card__drag manager-plugin-card__layout-drag",
+                    "target": "manager-hidden-card__drag manager-plugin-card__layout-drag"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-hidden-card manager-hidden-separator-card manager-layout-editable-card manager-plugin-separator-editor",
+                    "target": "manager-hidden-card manager-hidden-separator-card manager-layout-editable-card manager-plugin-separator-editor"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-repo-page manager-appearance-workspace",
+                    "target": "manager-repo-page manager-appearance-workspace"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-repo-page__toolbar manager-appearance-toolbar",
+                    "target": "manager-repo-page__toolbar manager-appearance-toolbar"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-repo-page__switcher manager-appearance-tabs",
+                    "target": "manager-repo-page__switcher manager-appearance-tabs"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-repo-page__body manager-appearance-body",
+                    "target": "manager-repo-page__body manager-appearance-body"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-appearance-section manager-appearance-section--profiles",
+                    "target": "manager-appearance-section manager-appearance-section--profiles"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-appearance-section manager-appearance-section--themes",
+                    "target": "manager-appearance-section manager-appearance-section--themes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-appearance-section manager-appearance-section--snippets",
+                    "target": "manager-appearance-section manager-appearance-section--snippets"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-theme-card__meta-row manager-theme-card__meta-row--wide",
+                    "target": "manager-theme-card__meta-row manager-theme-card__meta-row--wide"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-hidden-card manager-hidden-separator-card",
+                    "target": "manager-hidden-card manager-hidden-separator-card"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "bpm-empty-state manager-hidden-page__empty",
+                    "target": "bpm-empty-state manager-hidden-page__empty"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "bpm-empty-state manager-source-page__empty",
+                    "target": "bpm-empty-state manager-source-page__empty"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-source-page__toolbar manager-source-page__toolbar--actions",
+                    "target": "manager-source-page__toolbar manager-source-page__toolbar--actions"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-source-card__control-panel manager-source-card__control-panel--strategy",
+                    "target": "manager-source-card__control-panel manager-source-card__control-panel--strategy"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-source-card__control-panel manager-source-card__control-panel--update",
+                    "target": "manager-source-card__control-panel manager-source-card__control-panel--update"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-source-card__control-group manager-source-card__control-group--strategy",
+                    "target": "manager-source-card__control-group manager-source-card__control-group--strategy"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-source-card__control-group manager-source-card__control-group--compatibility",
+                    "target": "manager-source-card__control-group manager-source-card__control-group--compatibility"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-source-card__control-group manager-source-card__control-group--auto",
+                    "target": "manager-source-card__control-group manager-source-card__control-group--auto"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-source-card__control-group manager-source-card__control-group--pre",
+                    "target": "manager-source-card__control-group manager-source-card__control-group--pre"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-ribbon-page ribbon-manager-modal",
+                    "target": "manager-ribbon-page ribbon-manager-modal"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-transfer-card__header manager-transfer-card__header--split",
+                    "target": "manager-transfer-card__header manager-transfer-card__header--split"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-transfer-list manager-transfer-download-list",
+                    "target": "manager-transfer-list manager-transfer-download-list"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-transfer-selection-grid manager-transfer-download-grid",
+                    "target": "manager-transfer-selection-grid manager-transfer-download-grid"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-transfer-card manager-transfer-import-card",
+                    "target": "manager-transfer-card manager-transfer-import-card"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-transfer-dropzone manager-transfer-dropzone--compact",
+                    "target": "manager-transfer-dropzone manager-transfer-dropzone--compact"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-transfer-card manager-transfer-package-card",
+                    "target": "manager-transfer-card manager-transfer-package-card"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-vault-card manager-vault-setup",
+                    "target": "manager-vault-card manager-vault-setup"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "troubleshoot-list enabled",
+                    "target": "troubleshoot-list enabled"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-delay__container manager-taxonomy-setting",
+                    "target": "manager-setting-delay__container manager-taxonomy-setting"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-delay__header manager-taxonomy-setting__header",
+                    "target": "manager-setting-delay__header manager-taxonomy-setting__header"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-delay__header-main manager-taxonomy-setting__header-main",
+                    "target": "manager-setting-delay__header-main manager-taxonomy-setting__header-main"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-delay__header-text manager-taxonomy-setting__header-text",
+                    "target": "manager-setting-delay__header-text manager-taxonomy-setting__header-text"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-delay__stats manager-taxonomy-setting__stats",
+                    "target": "manager-setting-delay__stats manager-taxonomy-setting__stats"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-delay__list manager-taxonomy-setting__list",
+                    "target": "manager-setting-delay__list manager-taxonomy-setting__list"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-delay__item-title manager-taxonomy-setting__item-title",
+                    "target": "manager-setting-delay__item-title manager-taxonomy-setting__item-title"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-delay__meta manager-taxonomy-setting__meta",
+                    "target": "manager-setting-delay__meta manager-taxonomy-setting__meta"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-tag__container manager-taxonomy-setting",
+                    "target": "manager-setting-tag__container manager-taxonomy-setting"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-tag__header manager-taxonomy-setting__header",
+                    "target": "manager-setting-tag__header manager-taxonomy-setting__header"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-tag__header-main manager-taxonomy-setting__header-main",
+                    "target": "manager-setting-tag__header-main manager-taxonomy-setting__header-main"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-tag__header-text manager-taxonomy-setting__header-text",
+                    "target": "manager-setting-tag__header-text manager-taxonomy-setting__header-text"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-tag__stats manager-taxonomy-setting__stats",
+                    "target": "manager-setting-tag__stats manager-taxonomy-setting__stats"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-tag__list manager-taxonomy-setting__list",
+                    "target": "manager-setting-tag__list manager-taxonomy-setting__list"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-tag__item-title manager-taxonomy-setting__item-title",
+                    "target": "manager-setting-tag__item-title manager-taxonomy-setting__item-title"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-tag__meta manager-taxonomy-setting__meta",
+                    "target": "manager-setting-tag__meta manager-taxonomy-setting__meta"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-setting-group__container manager-taxonomy-setting",
+                    "target": "manager-setting-group__container manager-taxonomy-setting"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "打开目录失败",
+                    "target": "打开目录失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to load repository cache",
+                    "target": "[BPM] Failed to load repository cache"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to write repository cache",
+                    "target": "[BPM] Failed to write repository cache"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to fetch community plugin list",
+                    "target": "[BPM] Failed to fetch community plugin list"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] uninstall plugin failed",
+                    "target": "[BPM] uninstall plugin failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] failed to save plugin note",
+                    "target": "[BPM] failed to save plugin note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to create report:",
+                    "target": "[BPM] Failed to create report:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] fallback to raw tag failed",
+                    "target": "[BPM] fallback to raw tag failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "fetch versions in modal failed",
+                    "target": "fetch versions in modal failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] save update check config failed",
+                    "target": "[BPM] save update check config failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "检查更新时出错:",
+                    "target": "检查更新时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] fetch remote versions failed",
+                    "target": "[BPM] fetch remote versions failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] clear plugin config failed",
+                    "target": "[BPM] clear plugin config failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "检查单个插件更新时出错:",
+                    "target": "检查单个插件更新时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] reload manifests failed",
+                    "target": "[BPM] reload manifests failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] export transfer package failed",
+                    "target": "[BPM] export transfer package failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] import transfer package parse failed",
+                    "target": "[BPM] import transfer package parse failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] transfer item download failed",
+                    "target": "[BPM] transfer item download failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] transfer batch download failed",
+                    "target": "[BPM] transfer batch download failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] import transfer package failed",
+                    "target": "[BPM] import transfer package failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] import transfer plugin configs failed",
+                    "target": "[BPM] import transfer plugin configs failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] shared vault operation failed",
+                    "target": "[BPM] shared vault operation failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] command failed",
+                    "target": "[BPM] command failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to read community-plugins.json:",
+                    "target": "[BPM] Failed to read community-plugins.json:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to write community-plugins.json:",
+                    "target": "[BPM] Failed to write community-plugins.json:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to load workspace config",
+                    "target": "[BPM] Failed to load workspace config"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] migrate GitHub token to secret storage failed",
+                    "target": "[BPM] migrate GitHub token to secret storage failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] clear GitHub token secret failed",
+                    "target": "[BPM] clear GitHub token secret failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] startup check updates failed",
+                    "target": "[BPM] startup check updates failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] beta source check failed",
+                    "target": "[BPM] beta source check failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] beta source auto update failed",
+                    "target": "[BPM] beta source auto update failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] checkUpdates error",
+                    "target": "[BPM] checkUpdates error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] checkUpdateForPlugin error",
+                    "target": "[BPM] checkUpdateForPlugin error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取官方插件 stats 失败",
+                    "target": "获取官方插件 stats 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] fetchGithubVersions error",
+                    "target": "[BPM] fetchGithubVersions error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] install from GitHub",
+                    "target": "[BPM] install from GitHub"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] release assets picked",
+                    "target": "[BPM] release assets picked"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] fallback to raw tag",
+                    "target": "[BPM] fallback to raw tag"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] manifest parsed",
+                    "target": "[BPM] manifest parsed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] writing files",
+                    "target": "[BPM] writing files"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] manifest after reload",
+                    "target": "[BPM] manifest after reload"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] install complete",
+                    "target": "[BPM] install complete"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] render showData manifests size:",
+                    "target": "[BPM] render showData manifests size:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] render showData uniquePlugins:",
+                    "target": "[BPM] render showData uniquePlugins:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] render showData before loop, children:",
+                    "target": "[BPM] render showData before loop, children:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] render item",
+                    "target": "[BPM] render item"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "children before add:",
+                    "target": "children before add:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] render showData after loop, cards:",
+                    "target": "[BPM] render showData after loop, cards:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ids:",
+                    "target": "ids:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] reloadShowData start, children before empty:",
+                    "target": "[BPM] reloadShowData start, children before empty:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] reloadShowData end, children after render:",
+                    "target": "[BPM] reloadShowData end, children after render:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] Running migration",
+                    "target": "[BPM] Running migration"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] Workspace config save skipped; ribbon layout is stored only in BPM data.",
+                    "target": "[BPM] Workspace config save skipped; ribbon layout is stored only in BPM data."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] Detected workspace config change, reloading...",
+                    "target": "[BPM] Detected workspace config change, reloading..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "padding: 2px; border-radius: 2px 0 0 2px; color: #fff; background: #5B5B5B;",
+                    "target": "padding: 2px; border-radius: 2px 0 0 2px; color: #fff; background: #5B5B5B;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "padding: 2px; border-radius: 0 2px 2px 0; color: #fff; background: #409EFF;",
+                    "target": "padding: 2px; border-radius: 0 2px 2px 0; color: #fff; background: #409EFF;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] Cleaned undefined items from leftRibbon.",
+                    "target": "[BPM] Cleaned undefined items from leftRibbon."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] checkUpdates start, total manifests:",
+                    "target": "[BPM] checkUpdates start, total manifests:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] update official match",
+                    "target": "[BPM] update official match"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] update github match",
+                    "target": "[BPM] update github match"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] update unknown source",
+                    "target": "[BPM] update unknown source"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] single update official",
+                    "target": "[BPM] single update official"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] single update github",
+                    "target": "[BPM] single update github"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] single update unknown source",
+                    "target": "[BPM] single update unknown source"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "tag",
+                    "target": "tag"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "ID",
+                    "target": "ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[BPM] Community plugin list request failed",
+                    "target": "[BPM] Community plugin list request failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[BPM] Failed to migrate exported plugin note",
+                    "target": "[BPM] Failed to migrate exported plugin note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-tag-editor__badge is-assigned",
+                    "target": "manager-tag-editor__badge is-assigned"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-tag-editor__chip-slot manager-tag-editor__chip-slot--preview",
+                    "target": "manager-tag-editor__chip-slot manager-tag-editor__chip-slot--preview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-tag-editor__create-action manager-tag-editor__create-action--primary",
+                    "target": "manager-tag-editor__create-action manager-tag-editor__create-action--primary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-tag-editor__badge is-system",
+                    "target": "manager-tag-editor__badge is-system"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-version-picker__badge is-latest",
+                    "target": "manager-version-picker__badge is-latest"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-hidden-item__state is-separator",
+                    "target": "manager-hidden-item__state is-separator"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-repo-page__switch manager-appearance-tab",
+                    "target": "manager-repo-page__switch manager-appearance-tab"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-theme-card__chip is-source",
+                    "target": "manager-theme-card__chip is-source"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-theme-card__chip is-active",
+                    "target": "manager-theme-card__chip is-active"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-source-item__chip is-auto",
+                    "target": "manager-source-item__chip is-auto"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-source-item__chip is-frozen",
+                    "target": "manager-source-item__chip is-frozen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-source-item__chip is-update",
+                    "target": "manager-source-item__chip is-update"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-transfer-download__button manager-transfer-download__button--secondary",
+                    "target": "manager-transfer-download__button manager-transfer-download__button--secondary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "muted",
+                    "target": "muted"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-delay__header-icon manager-taxonomy-setting__header-icon",
+                    "target": "manager-setting-delay__header-icon manager-taxonomy-setting__header-icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-delay__title manager-taxonomy-setting__title",
+                    "target": "manager-setting-delay__title manager-taxonomy-setting__title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-delay__desc manager-taxonomy-setting__desc",
+                    "target": "manager-setting-delay__desc manager-taxonomy-setting__desc"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-delay__stat manager-taxonomy-setting__stat",
+                    "target": "manager-setting-delay__stat manager-taxonomy-setting__stat"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-delay__stat-icon manager-taxonomy-setting__stat-icon",
+                    "target": "manager-setting-delay__stat-icon manager-taxonomy-setting__stat-icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-delay__stat-label manager-taxonomy-setting__stat-label",
+                    "target": "manager-setting-delay__stat-label manager-taxonomy-setting__stat-label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-delay__stat-value manager-taxonomy-setting__stat-value",
+                    "target": "manager-setting-delay__stat-value manager-taxonomy-setting__stat-value"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-delay__preview manager-taxonomy-setting__preview",
+                    "target": "manager-setting-delay__preview manager-taxonomy-setting__preview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-delay__id manager-taxonomy-setting__id",
+                    "target": "manager-setting-delay__id manager-taxonomy-setting__id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-tag__header-icon manager-taxonomy-setting__header-icon",
+                    "target": "manager-setting-tag__header-icon manager-taxonomy-setting__header-icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-tag__title manager-taxonomy-setting__title",
+                    "target": "manager-setting-tag__title manager-taxonomy-setting__title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-tag__desc manager-taxonomy-setting__desc",
+                    "target": "manager-setting-tag__desc manager-taxonomy-setting__desc"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-tag__stat manager-taxonomy-setting__stat",
+                    "target": "manager-setting-tag__stat manager-taxonomy-setting__stat"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-tag__stat-icon manager-taxonomy-setting__stat-icon",
+                    "target": "manager-setting-tag__stat-icon manager-taxonomy-setting__stat-icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-tag__stat-label manager-taxonomy-setting__stat-label",
+                    "target": "manager-setting-tag__stat-label manager-taxonomy-setting__stat-label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-tag__stat-value manager-taxonomy-setting__stat-value",
+                    "target": "manager-setting-tag__stat-value manager-taxonomy-setting__stat-value"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-tag__id manager-taxonomy-setting__id",
+                    "target": "manager-setting-tag__id manager-taxonomy-setting__id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "manager-setting-tag__badge manager-taxonomy-setting__badge is-system",
+                    "target": "manager-setting-tag__badge manager-taxonomy-setting__badge is-system"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon takeover-title__close",
+                    "target": "clickable-icon takeover-title__close"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default delay",
+                    "target": "Default delay"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "ID",
+                    "target": "ID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔌",
+                    "target": "🔌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "BPM",
+                    "target": "BPM"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "file",
+                    "target": "file"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"[BPM] uninstall plugin failed\", error);\n      this.setBusy(false);\n    }\n  }\n  async showHead() {\n    var _a, _b;\n    const modalEl = this.contentEl.parentElement;\n    if (!modalEl)\n      return;\n    modalEl.addClass(\"manager-delete__container\")",
+                    "target": "error(\"[BPM] uninstall plugin failed\", error);\n      this.setBusy(false);\n    }\n  }\n  async showHead() {\n    var _a, _b;\n    const modalEl = this.contentEl.parentElement;\n    if (!modalEl)\n      return;\n    modalEl.addClass(\"manager-delete__container\")"
+                },
+                {
+                    "source": "error(\"[BPM] failed to save plugin note\", error);\n      this.setSaveState(\"error\")",
+                    "target": "error(\"[BPM] failed to save plugin note\", error);\n      this.setSaveState(\"error\")"
+                },
+                {
+                    "source": "setTitle(`${delay.name || delay.id} (${delay.time}s)`)",
+                    "target": "setTitle(`${delay.name || delay.id} (${delay.time}s)`)"
+                },
+                {
+                    "source": "log(\"[BPM] render showData before loop, children:\", this.pageEl.children.length);\n    this.displayPlugins = [];\n    const modeBarHost = this.bulkEditMode || this.editorMode ? this.pageEl.createDiv(\"manager-bulk-bar-host\")",
+                    "target": "log(\"[BPM] render showData before loop, children:\", this.pageEl.children.length);\n    this.displayPlugins = [];\n    const modeBarHost = this.bulkEditMode || this.editorMode ? this.pageEl.createDiv(\"manager-bulk-bar-host\")"
+                },
+                {
+                    "source": "log(\"[BPM] render item\", plugin.id, \"children before add:\", this.pageEl.children.length);\n      const itemEl = new import_obsidian18.Setting(this.pageEl);\n      renderedInBatch++;\n      itemEl.settingEl.setAttr(\"data-plugin-id\", plugin.id);\n      itemEl.setClass(\"manager-item\")",
+                    "target": "log(\"[BPM] render item\", plugin.id, \"children before add:\", this.pageEl.children.length);\n      const itemEl = new import_obsidian18.Setting(this.pageEl);\n      renderedInBatch++;\n      itemEl.settingEl.setAttr(\"data-plugin-id\", plugin.id);\n      itemEl.setClass(\"manager-item\")"
+                },
+                {
+                    "source": "log(\"[BPM] render showData after loop, cards:\", cards.length, \"ids:\", cards.map((el) => el.getAttribute(\"data-plugin-id\")",
+                    "target": "log(\"[BPM] render showData after loop, cards:\", cards.length, \"ids:\", cards.map((el) => el.getAttribute(\"data-plugin-id\")"
+                },
+                {
+                    "source": "log(\"[BPM] Detected workspace config change, reloading...\")",
+                    "target": "log(\"[BPM] Detected workspace config change, reloading...\")"
+                },
+                {
+                    "source": "log(`[BPM] Drag-to-hide triggered for: ${label} (${targetId})`)",
+                    "target": "log(`[BPM] Drag-to-hide triggered for: ${label} (${targetId})`)"
+                },
+                {
+                    "source": "log(\"[BPM] Cleaned undefined items from leftRibbon.\")",
+                    "target": "log(\"[BPM] Cleaned undefined items from leftRibbon.\")"
+                },
+                {
+                    "source": "text: `${value}`",
+                    "target": "text: `${value}`"
+                },
+                {
+                    "source": "text: \"ID\"",
+                    "target": "text: \"ID\""
+                },
+                {
+                    "source": "text: `[${plugin.version}]`",
+                    "target": "text: `[${plugin.version}]`"
+                },
+                {
+                    "source": "text: `${d.time}s`",
+                    "target": "text: `${d.time}s`"
+                },
+                {
+                    "source": "text: `v${plugin1Version}`",
+                    "target": "text: `v${plugin1Version}`"
+                },
+                {
+                    "source": "text: `${index + 1}`",
+                    "target": "text: `${index + 1}`"
+                },
+                {
+                    "source": "text: `${title} (${pluginIds.length})`",
+                    "target": "text: `${title} (${pluginIds.length})`"
+                },
+                {
+                    "source": "text: `${this.versions.length}`",
+                    "target": "text: `${this.versions.length}`"
+                },
+                {
+                    "source": "page : \"plugins\"",
+                    "target": "page : \"plugins\""
+                },
+                {
+                    "source": "text: `${delay.time}s`",
+                    "target": "text: `${delay.time}s`"
+                },
+                {
+                    "source": "text: \"BPM\"",
+                    "target": "text: \"BPM\""
+                },
+                {
+                    "source": "page = \"plugins\"",
+                    "target": "page = \"plugins\""
+                },
+                {
+                    "source": "text: `${updateInfo.remoteVersion}`",
+                    "target": "text: `${updateInfo.remoteVersion}`"
+                },
+                {
+                    "source": "text: `${item.label} ${item.value}`",
+                    "target": "text: `${item.label} ${item.value}`"
+                },
+                {
+                    "source": "text: `${item.value}`",
+                    "target": "text: `${item.value}`"
+                },
+                {
+                    "source": "page = \"themes\"",
+                    "target": "page = \"themes\""
+                },
+                {
+                    "source": "text: `${count}`",
+                    "target": "text: `${count}`"
+                },
+                {
+                    "source": "text: `v${theme.version}`",
+                    "target": "text: `v${theme.version}`"
+                },
+                {
+                    "source": "text: `${snippet.id}.css`",
+                    "target": "text: `${snippet.id}.css`"
+                },
+                {
+                    "source": "text: `${historyItems.length}`",
+                    "target": "text: `${historyItems.length}`"
+                },
+                {
+                    "source": "text: `${items.length}`",
+                    "target": "text: `${items.length}`"
+                },
+                {
+                    "source": "text: `${status.itemCount}`",
+                    "target": "text: `${status.itemCount}`"
+                },
+                {
+                    "source": "text: `${vault.enabledPluginIds.length}/${plugins.length}`",
+                    "target": "text: `${vault.enabledPluginIds.length}/${plugins.length}`"
+                },
+                {
+                    "source": "text: `${plugin.id}${plugin.version ? `",
+                    "target": "text: `${plugin.id}${plugin.version ? `"
+                },
+                {
+                    "source": "text: `${themes.length}`",
+                    "target": "text: `${themes.length}`"
+                },
+                {
+                    "source": "text: `${percent}%`",
+                    "target": "text: `${percent}%`"
+                },
+                {
+                    "source": "name: `${this.t(\"command_enable_tag\")} ${name}`",
+                    "target": "name: `${this.t(\"command_enable_tag\")} ${name}`"
+                },
+                {
+                    "source": "name: `${this.t(\"command_disable_tag\")} ${name}`",
+                    "target": "name: `${this.t(\"command_disable_tag\")} ${name}`"
+                },
+                {
+                    "source": "name: `${this.t(\"command_apply_profile\")} ${profile.name}`",
+                    "target": "name: `${this.t(\"command_apply_profile\")} ${profile.name}`"
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                },
+                {
+                    "source": "text: `#${index + 1}`",
+                    "target": "text: `#${index + 1}`"
+                },
+                {
+                    "source": "textContent = `${value}s`",
+                    "target": "textContent = `${value}s`"
+                },
+                {
+                    "source": "settings: \"Open settings\"",
+                    "target": "settings: \"Open settings\""
+                },
+                {
+                    "source": "settings: \"Enable this plugin before opening its settings\"",
+                    "target": "settings: \"Enable this plugin before opening its settings\""
+                },
+                {
+                    "source": "text: `${this.takeoverCandidates.length}`",
+                    "target": "text: `${this.takeoverCandidates.length}`"
+                }
+            ]
+        }
+    }
+}

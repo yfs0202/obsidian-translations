@@ -1,0 +1,1370 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian42-brat",
+        "version": "1.0.0",
+        "title": "BRAT",
+        "description": "BRAT Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.2.0",
+        "author": "yfs"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "latest",
+                    "target": "latest"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Plugin: ",
+                    "target": "Plugin: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "The ",
+                    "target": "The "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " for this plugin indicates that the Obsidian version of the app needs to be ",
+                    "target": " for this plugin indicates that the Obsidian version of the app needs to be "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", but this installation of Obsidian is ",
+                    "target": ", but this installation of Obsidian is "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Using this plugin is not recommended and may not work as expected. Use at your own risk.",
+                    "target": "Using this plugin is not recommended and may not work as expected. Use at your own risk."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Do you want to install it anyways?",
+                    "target": "Do you want to install it anyways?"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " for this plugin indicates that the plugin has ",
+                    "target": " for this plugin indicates that the plugin has "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", but you are using a mobile device.",
+                    "target": ", but you are using a mobile device."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Do you want to forcefully run it on mobile anyways?",
+                    "target": "Do you want to forcefully run it on mobile anyways?"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "coffee",
+                    "target": "coffee"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "form",
+                    "target": "form"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in isPrivateRepo",
+                    "target": "error in isPrivateRepo"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in fetchReleaseVersions",
+                    "target": "Error in fetchReleaseVersions"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in grabReleaseFileFromRepository",
+                    "target": "error in grabReleaseFileFromRepository"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in grabCommmunityPluginList",
+                    "target": "error in grabCommmunityPluginList"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in grabCommmunityThemesList",
+                    "target": "error in grabCommmunityThemesList"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in grabCommmunityThemeCssFile",
+                    "target": "error in grabCommmunityThemeCssFile"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in grabCommmunityThemeManifestFile",
+                    "target": "error in grabCommmunityThemeManifestFile"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in grabLastCommitInfoForAFile",
+                    "target": "error in grabLastCommitInfoForAFile"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "BRAT\nGitHub API rate limit exceeded:",
+                    "target": "BRAT\nGitHub API rate limit exceeded:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "GitHub request failed:",
+                    "target": "GitHub request failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Token validation error:",
+                    "target": "Token validation error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "BRAT: validateRepository",
+                    "target": "BRAT: validateRepository"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "BRAT - Local Manifest Load",
+                    "target": "BRAT - Local Manifest Load"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "reload plugin",
+                    "target": "reload plugin"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "BRAT: Failed to migrate tokens to SecretStorage:",
+                    "target": "BRAT: Failed to migrate tokens to SecretStorage:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy repository identifier",
+                    "target": "Failed to copy repository identifier"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load settings:",
+                    "target": "Failed to load settings:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "No token provided",
+                    "target": "No token provided"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Failed to validate token",
+                    "target": "Failed to validate token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Failed to validate token",
+                    "target": "Failed to validate token"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "brat-token-status valid",
+                    "target": "brat-token-status valid"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, werden neu installierte Beta-Plugins standardmäßig automatisch aktiviert. Diese Option kann im Formular zum Hinzufügen eines Plugins pro Plugin angepasst werden.",
+                    "target": "Wenn aktiviert, werden neu installierte Beta-Plugins standardmäßig automatisch aktiviert. Diese Option kann im Formular zum Hinzufügen eines Plugins pro Plugin angepasst werden."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, prüft BRAT bei jedem Start von Obsidian alle Beta-Plugins auf Updates. Plugins mit fixierter Version werden nicht aktualisiert.",
+                    "target": "Wenn aktiviert, prüft BRAT bei jedem Start von Obsidian alle Beta-Plugins auf Updates. Plugins mit fixierter Version werden nicht aktualisiert."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, prüft BRAT bei jedem Start von Obsidian alle Beta-Themes auf Updates.",
+                    "target": "Wenn aktiviert, prüft BRAT bei jedem Start von Obsidian alle Beta-Themes auf Updates."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, wird beim Hinzufügen eines neuen Plugins standardmäßig die neueste Version ausgewählt.",
+                    "target": "Wenn aktiviert, wird beim Hinzufügen eines neuen Plugins standardmäßig die neueste Version ausgewählt."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, können Plugins installiert werden, die eine höhere Obsidian-Version voraussetzen. Außerdem können Desktop-only-Plugins auf Mobilgeräten installiert werden.",
+                    "target": "Wenn aktiviert, können Plugins installiert werden, die eine höhere Obsidian-Version voraussetzen. Außerdem können Desktop-only-Plugins auf Mobilgeräten installiert werden."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wenn aktiviert, zeigt BRAT Popup-Benachrichtigungen zu verschiedenen Aktivitäten an. Wenn deaktiviert, werden keine Benachrichtigungen angezeigt.",
+                    "target": "Wenn aktiviert, zeigt BRAT Popup-Benachrichtigungen zu verschiedenen Aktivitäten an. Wenn deaktiviert, werden keine Benachrichtigungen angezeigt."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Plugin-Updates werden in eine Protokolldatei geschrieben.",
+                    "target": "Plugin-Updates werden in eine Protokolldatei geschrieben."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Protokolle werden in dieser Datei gespeichert. Füge dem Dateinamen kein .md hinzu.",
+                    "target": "Protokolle werden in dieser Datei gespeichert. Füge dem Dateinamen kein .md hinzu."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Schreibt deutlich mehr Informationen in das Protokoll.",
+                    "target": "Schreibt deutlich mehr Informationen in das Protokoll."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Sehr ausführliche Konsolenprotokollierung. Kann zur Fehlerbehebung und Entwicklung verwendet werden.",
+                    "target": "Sehr ausführliche Konsolenprotokollierung. Kann zur Fehlerbehebung und Entwicklung verwendet werden."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Wähle ein Secret als Token für dieses Repository aus (optional)",
+                    "target": "Wähle ein Secret als Token für dieses Repository aus (optional)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If enabled beta plugins will be automatically enabled after installtion by default. Note: you can toggle this on and off for each plugin in the \"add plugin\" form.",
+                    "target": "If enabled beta plugins will be automatically enabled after installtion by default. Note: you can toggle this on and off for each plugin in the \"add plugin\" form."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If enabled all beta plugins will be checked for updates each time Obsidian starts. Note: this does not update frozen version plugins.",
+                    "target": "If enabled all beta plugins will be checked for updates each time Obsidian starts. Note: this does not update frozen version plugins."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If enabled all beta themes will be checked for updates each time Obsidian starts.",
+                    "target": "If enabled all beta themes will be checked for updates each time Obsidian starts."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If enabled the latest version will be selected by default when adding a new plugin.",
+                    "target": "If enabled the latest version will be selected by default when adding a new plugin."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "If enabled, plugins with higher app versions will be allowed to be installed. Also it allows desktop-only plugins to be installed on mobile devices.",
+                    "target": "If enabled, plugins with higher app versions will be allowed to be installed. Also it allows desktop-only plugins to be installed on mobile devices."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "BRAT will provide popup notifications for its various activities. Turn this off means no notifications.",
+                    "target": "BRAT will provide popup notifications for its various activities. Turn this off means no notifications."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Plugin updates will be logged to a file in the log file.",
+                    "target": "Plugin updates will be logged to a file in the log file."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Logs will be saved to this file. Don't add .md to the file name.",
+                    "target": "Logs will be saved to this file. Don't add .md to the file name."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Get a lot  more information in  the log.",
+                    "target": "Get a lot  more information in  the log."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Atomic bomb level console logging. Can be used for troubleshooting and development.",
+                    "target": "Atomic bomb level console logging. Can be used for troubleshooting and development."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select a secret as token for this repository (optional)",
+                    "target": "Select a secret as token for this repository (optional)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、新しくインストールした Beta プラグインは既定で自動的に有効になります。個別のプラグインについては「プラグインを追加」フォームで切り替えられます。",
+                    "target": "有効にすると、新しくインストールした Beta プラグインは既定で自動的に有効になります。個別のプラグインについては「プラグインを追加」フォームで切り替えられます。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、Obsidian の起動時にすべての Beta プラグインの更新を確認します。固定バージョンのプラグインは更新されません。",
+                    "target": "有効にすると、Obsidian の起動時にすべての Beta プラグインの更新を確認します。固定バージョンのプラグインは更新されません。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、Obsidian の起動時にすべての Beta テーマの更新を確認します。",
+                    "target": "有効にすると、Obsidian の起動時にすべての Beta テーマの更新を確認します。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、新しいプラグインを追加するときに最新バージョンが既定で選択されます。",
+                    "target": "有効にすると、新しいプラグインを追加するときに最新バージョンが既定で選択されます。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、より新しい Obsidian バージョンを必要とするプラグインをインストールできます。また、デスクトップ専用プラグインをモバイル端末にインストールすることも許可されます。",
+                    "target": "有効にすると、より新しい Obsidian バージョンを必要とするプラグインをインストールできます。また、デスクトップ専用プラグインをモバイル端末にインストールすることも許可されます。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "有効にすると、BRAT は各種アクティビティについてポップアップ通知を表示します。オフにすると通知は表示されません。",
+                    "target": "有効にすると、BRAT は各種アクティビティについてポップアップ通知を表示します。オフにすると通知は表示されません。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "プラグインの更新はログファイルに記録されます。",
+                    "target": "プラグインの更新はログファイルに記録されます。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "ログはこのファイルに保存されます。ファイル名に .md は追加しないでください。",
+                    "target": "ログはこのファイルに保存されます。ファイル名に .md は追加しないでください。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "ログにより多くの情報を記録します。",
+                    "target": "ログにより多くの情報を記録します。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "非常に詳細なコンソールログを出力します。トラブルシューティングや開発に使用できます。",
+                    "target": "非常に詳細なコンソールログを出力します。トラブルシューティングや開発に使用できます。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "このリポジトリ用のトークンとして使用するシークレットを選択します（任意）",
+                    "target": "このリポジトリ用のトークンとして使用するシークレットを選択します（任意）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，新安装的 Beta 插件会默认自动启用。你仍然可以在“添加插件”表单中为单个插件单独调整。",
+                    "target": "开启后，新安装的 Beta 插件会默认自动启用。你仍然可以在“添加插件”表单中为单个插件单独调整。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，每次 Obsidian 启动时都会检查并安装 Beta 插件更新。固定版本不会自动更新。",
+                    "target": "开启后，每次 Obsidian 启动时都会检查并安装 Beta 插件更新。固定版本不会自动更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，每次 Obsidian 启动时都会检查并安装 Beta 主题更新。",
+                    "target": "开启后，每次 Obsidian 启动时都会检查并安装 Beta 主题更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，添加新插件时会默认选择最新版本。",
+                    "target": "开启后，添加新插件时会默认选择最新版本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，可以安装要求更高 Obsidian 版本的插件，也可以在移动端安装仅支持桌面端的插件。",
+                    "target": "开启后，可以安装要求更高 Obsidian 版本的插件，也可以在移动端安装仅支持桌面端的插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，BRAT 会用弹窗提示安装、更新等操作状态。关闭后不再显示这些通知。",
+                    "target": "开启后，BRAT 会用弹窗提示安装、更新等操作状态。关闭后不再显示这些通知。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，插件更新记录会写入日志文件。",
+                    "target": "开启后，插件更新记录会写入日志文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "日志会保存到这个文件。填写文件名或库内路径时不要加 .md。",
+                    "target": "日志会保存到这个文件。填写文件名或库内路径时不要加 .md。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，日志会记录更多排查信息。",
+                    "target": "开启后，日志会记录更多排查信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，控制台会输出大量调试信息，主要用于排查问题和开发。",
+                    "target": "开启后，控制台会输出大量调试信息，主要用于排查问题和开发。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择一个密钥，作为访问此仓库的令牌（可选）",
+                    "target": "选择一个密钥，作为访问此仓库的令牌（可选）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Überwachung",
+                    "target": "Überwachung"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "GitHub Personal Access Token",
+                    "target": "GitHub Personal Access Token"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Monitoring",
+                    "target": "Monitoring"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Beta plugin list",
+                    "target": "Beta plugin list"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Beta themes list",
+                    "target": "Beta themes list"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "監視",
+                    "target": "監視"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "GitHub 個人アクセストークン",
+                    "target": "GitHub 個人アクセストークン"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Beta プラグイン一覧",
+                    "target": "Beta プラグイン一覧"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Beta テーマ一覧",
+                    "target": "Beta テーマ一覧"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "通知与日志",
+                    "target": "通知与日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "GitHub 个人访问令牌",
+                    "target": "GitHub 个人访问令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Beta 插件列表",
+                    "target": "Beta 插件列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Beta 主题列表",
+                    "target": "Beta 主题列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Repository",
+                    "target": "Repository"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "リポジトリ",
+                    "target": "リポジトリ"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "仓库",
+                    "target": "仓库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid token format",
+                    "target": "Invalid token format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No error",
+                    "target": "No error"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Token has expired",
+                    "target": "Token has expired"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Token lacks required scopes. Check documentation for requirements.",
+                    "target": "Token lacks required scopes. Check documentation for requirements."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Beta-Plugins nach der Installation automatisch aktivieren",
+                    "target": "Beta-Plugins nach der Installation automatisch aktivieren"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Beta-Plugins beim Start automatisch aktualisieren",
+                    "target": "Beta-Plugins beim Start automatisch aktualisieren"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Beta-Themes beim Start automatisch aktualisieren",
+                    "target": "Beta-Themes beim Start automatisch aktualisieren"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Neueste Plugin-Version standardmäßig auswählen",
+                    "target": "Neueste Plugin-Version standardmäßig auswählen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Inkompatible Plugins erlauben",
+                    "target": "Inkompatible Plugins erlauben"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Benachrichtigungen aktivieren",
+                    "target": "Benachrichtigungen aktivieren"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Protokollierung aktivieren",
+                    "target": "Protokollierung aktivieren"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Speicherort der BRAT-Protokolldatei",
+                    "target": "Speicherort der BRAT-Protokolldatei"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ausführliche Protokollierung aktivieren",
+                    "target": "Ausführliche Protokollierung aktivieren"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Persönliches Zugriffstoken",
+                    "target": "Persönliches Zugriffstoken"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto-enable plugins after installation",
+                    "target": "Auto-enable plugins after installation"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto-update plugins at startup",
+                    "target": "Auto-update plugins at startup"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto-update themes at startup",
+                    "target": "Auto-update themes at startup"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select latest plugin version by default",
+                    "target": "Select latest plugin version by default"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Allow incompatible plugins",
+                    "target": "Allow incompatible plugins"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable notifications",
+                    "target": "Enable notifications"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable logging",
+                    "target": "Enable logging"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "BRAT log file location",
+                    "target": "BRAT log file location"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable verbose logging",
+                    "target": "Enable verbose logging"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Debugging mode",
+                    "target": "Debugging mode"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Personal access token",
+                    "target": "Personal access token"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GitHub token",
+                    "target": "GitHub token"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "インストール後に Beta プラグインを自動で有効化",
+                    "target": "インストール後に Beta プラグインを自動で有効化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "起動時に Beta プラグインを自動更新",
+                    "target": "起動時に Beta プラグインを自動更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "起動時に Beta テーマを自動更新",
+                    "target": "起動時に Beta テーマを自動更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "既定で最新のプラグインバージョンを選択",
+                    "target": "既定で最新のプラグインバージョンを選択"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "互換性のないプラグインを許可",
+                    "target": "互換性のないプラグインを許可"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "通知を有効化",
+                    "target": "通知を有効化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ログを有効化",
+                    "target": "ログを有効化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "BRAT ログファイルの場所",
+                    "target": "BRAT ログファイルの場所"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "詳細ログを有効化",
+                    "target": "詳細ログを有効化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "デバッグモード",
+                    "target": "デバッグモード"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "個人アクセストークン",
+                    "target": "個人アクセストークン"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GitHub トークン",
+                    "target": "GitHub トークン"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "安装后自动启用 Beta 插件",
+                    "target": "安装后自动启用 Beta 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启动时自动更新 Beta 插件",
+                    "target": "启动时自动更新 Beta 插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启动时自动更新 Beta 主题",
+                    "target": "启动时自动更新 Beta 主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认选择插件最新版本",
+                    "target": "默认选择插件最新版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "允许安装不兼容插件",
+                    "target": "允许安装不兼容插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用通知",
+                    "target": "启用通知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用日志",
+                    "target": "启用日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "BRAT 日志文件",
+                    "target": "BRAT 日志文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用详细日志",
+                    "target": "启用详细日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "调试模式",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "个人访问令牌",
+                    "target": "个人访问令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GitHub 令牌",
+                    "target": "GitHub 令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Add a beta plugin for testing (with or without version)",
+                    "target": "Plugins: Add a beta plugin for testing (with or without version)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Check for updates to all beta plugins and UPDATE",
+                    "target": "Plugins: Check for updates to all beta plugins and UPDATE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Only check for updates to beta plugins, but don't Update",
+                    "target": "Plugins: Only check for updates to beta plugins, but don't Update"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Choose a single plugin version to update",
+                    "target": "Plugins: Choose a single plugin version to update"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Choose a single plugin to reinstall",
+                    "target": "Plugins: Choose a single plugin to reinstall"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Restart a plugin that is already installed",
+                    "target": "Plugins: Restart a plugin that is already installed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Disable a plugin - toggle it off",
+                    "target": "Plugins: Disable a plugin - toggle it off"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Enable a plugin - toggle it on",
+                    "target": "Plugins: Enable a plugin - toggle it on"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Open the GitHub repository for a plugin",
+                    "target": "Plugins: Open the GitHub repository for a plugin"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Open the community page for a plugin",
+                    "target": "Plugins: Open the community page for a plugin"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Themes: Open the GitHub repository for a theme (appearance)",
+                    "target": "Themes: Open the GitHub repository for a theme (appearance)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Open Plugin Settings Tab",
+                    "target": "Plugins: Open Plugin Settings Tab"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Themes: Grab a beta theme for testing from a Github repository",
+                    "target": "Themes: Grab a beta theme for testing from a Github repository"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Themes: Update beta themes",
+                    "target": "Themes: Update beta themes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Remove a graduated plugin from BRAT (keep installed)",
+                    "target": "Plugins: Remove a graduated plugin from BRAT (keep installed)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plugins: Update a graduated plugin to stable release and remove from BRAT",
+                    "target": "Plugins: Update a graduated plugin to stable release and remove from BRAT"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "All Commands list",
+                    "target": "All Commands list"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Beispiel: BRAT-log",
+                    "target": "Beispiel: BRAT-log"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Repository (Beispiel: https://GitHub.com/githubusername/repository-name)",
+                    "target": "Repository (Beispiel: https://GitHub.com/githubusername/repository-name)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Example: BRAT-log",
+                    "target": "Example: BRAT-log"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Repository (example: https://GitHub.com/githubusername/repository-name)",
+                    "target": "Repository (example: https://GitHub.com/githubusername/repository-name)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例：BRAT-log",
+                    "target": "例：BRAT-log"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "リポジトリ（例：https://GitHub.com/githubusername/repository-name）",
+                    "target": "リポジトリ（例：https://GitHub.com/githubusername/repository-name）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "示例：BRAT-log",
+                    "target": "示例：BRAT-log"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "仓库（示例：https://GitHub.com/githubusername/repository-name）",
+                    "target": "仓库（示例：https://GitHub.com/githubusername/repository-name）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✓ Valid token",
+                    "target": "✓ Valid token"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "TFTHacker",
+                    "target": "TFTHacker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "johannrichard",
+                    "target": "johannrichard"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "isDesktopOnly: true",
+                    "target": "isDesktopOnly: true"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Learn more",
+                    "target": "Learn more"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Version auswählen",
+                    "target": "Version auswählen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Select a version",
+                    "target": "Select a version"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "バージョンを選択",
+                    "target": "バージョンを選択"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "选择版本",
+                    "target": "选择版本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"error in isPrivateRepo\",i,n),!1}},ds=async(s,t=!0,e=\"\")",
+                    "target": "error(\"error in isPrivateRepo\",i,n),!1}},ds=async(s,t=!0,e=\"\")"
+                },
+                {
+                    "source": "error(\"Error in fetchReleaseVersions\",i,n),null}},ge=async(s,t,e=!0,i=!1,n=\"\")",
+                    "target": "error(\"Error in fetchReleaseVersions\",i,n),null}},ge=async(s,t,e=!0,i=!1,n=\"\")"
+                },
+                {
+                    "source": "setText(\"No token provided\")",
+                    "target": "setText(\"No token provided\")"
+                },
+                {
+                    "source": "error(\"Token validation error:\",g),(p=this.statusEl)==null||p.setText(\"Failed to validate token\")",
+                    "target": "error(\"Token validation error:\",g),(p=this.statusEl)==null||p.setText(\"Failed to validate token\")"
+                },
+                {
+                    "source": "error(`BRAT: validateRepository ${l}`)",
+                    "target": "error(`BRAT: validateRepository ${l}`)"
+                },
+                {
+                    "source": "appendText(\"Plugin: \")",
+                    "target": "appendText(\"Plugin: \")"
+                },
+                {
+                    "source": "appendText(\"The \")",
+                    "target": "appendText(\"The \")"
+                },
+                {
+                    "source": "appendText(\" for this plugin indicates that the Obsidian version of the app needs to be \")",
+                    "target": "appendText(\" for this plugin indicates that the Obsidian version of the app needs to be \")"
+                },
+                {
+                    "source": "appendText(\", but this installation of Obsidian is \")",
+                    "target": "appendText(\", but this installation of Obsidian is \")"
+                },
+                {
+                    "source": "appendText(\"Using this plugin is not recommended and may not work as expected. Use at your own risk.\")",
+                    "target": "appendText(\"Using this plugin is not recommended and may not work as expected. Use at your own risk.\")"
+                },
+                {
+                    "source": "appendText(\"Do you want to install it anyways?\")",
+                    "target": "appendText(\"Do you want to install it anyways?\")"
+                },
+                {
+                    "source": "appendText(\" for this plugin indicates that the plugin has \")",
+                    "target": "appendText(\" for this plugin indicates that the plugin has \")"
+                },
+                {
+                    "source": "appendText(\", but you are using a mobile device.\")",
+                    "target": "appendText(\", but you are using a mobile device.\")"
+                },
+                {
+                    "source": "appendText(\"Do you want to forcefully run it on mobile anyways?\")",
+                    "target": "appendText(\"Do you want to forcefully run it on mobile anyways?\")"
+                },
+                {
+                    "source": "log(`${z}[Release Info](https://github.com/${t}/releases/tag/${d.version})`,!0),v(this.plugin,z,30,()=>{d&&window.open(`https://github.com/${t}/releases/tag/${d.version}`)",
+                    "target": "log(`${z}[Release Info](https://github.com/${t}/releases/tag/${d.version})`,!0),v(this.plugin,z,30,()=>{d&&window.open(`https://github.com/${t}/releases/tag/${d.version}`)"
+                },
+                {
+                    "source": "log(`${k}[Release Info](https://github.com/${t}/releases/tag/${d.version})`,!0),v(this.plugin,k,30,()=>{d&&window.open(`https://github.com/${t}/releases/tag/${d.version}`)",
+                    "target": "log(`${k}[Release Info](https://github.com/${t}/releases/tag/${d.version})`,!0),v(this.plugin,k,30,()=>{d&&window.open(`https://github.com/${t}/releases/tag/${d.version}`)"
+                },
+                {
+                    "source": "error(\"BRAT: Failed to migrate tokens to SecretStorage:\",n)}}var Z=require(\"obsidian\")",
+                    "target": "error(\"BRAT: Failed to migrate tokens to SecretStorage:\",n)}}var Z=require(\"obsidian\")"
+                },
+                {
+                    "source": "appendText(\" \")",
+                    "target": "appendText(\" \")"
+                },
+                {
+                    "source": "error(\"Token validation error:\",r),n.setButtonText(i.addBetaPluginModal.buttons.invalid),n.buttonEl.addClass(\"mod-warning\")",
+                    "target": "error(\"Token validation error:\",r),n.setButtonText(i.addBetaPluginModal.buttons.invalid),n.buttonEl.addClass(\"mod-warning\")"
+                },
+                {
+                    "source": "setTooltip(\"Failed to validate token\")",
+                    "target": "setTooltip(\"Failed to validate token\")"
+                },
+                {
+                    "source": "text:`Scopes: ${t.currentScopes.join(\", \")}`",
+                    "target": "text:`Scopes: ${t.currentScopes.join(\", \")}`"
+                },
+                {
+                    "source": "text:`Rate Limit: ${t.rateLimit.remaining}/${t.rateLimit.limit}`",
+                    "target": "text:`Rate Limit: ${t.rateLimit.remaining}/${t.rateLimit.limit}`"
+                },
+                {
+                    "source": "text:`Valid prefixes: ${(n=t.details.validPrefixes)==null?void 0:n.join(\", \")}`",
+                    "target": "text:`Valid prefixes: ${(n=t.details.validPrefixes)==null?void 0:n.join(\", \")}`"
+                },
+                {
+                    "source": "text:`Required scopes: ${(r=t.details.requiredScopes)==null?void 0:r.join(\", \")}`",
+                    "target": "text:`Required scopes: ${(r=t.details.requiredScopes)==null?void 0:r.join(\", \")}`"
+                },
+                {
+                    "source": "name:\"Beta-Plugins nach der Installation automatisch aktivieren\"",
+                    "target": "name:\"Beta-Plugins nach der Installation automatisch aktivieren\""
+                },
+                {
+                    "source": "name:\"Beta-Plugins beim Start automatisch aktualisieren\"",
+                    "target": "name:\"Beta-Plugins beim Start automatisch aktualisieren\""
+                },
+                {
+                    "source": "name:\"Beta-Themes beim Start automatisch aktualisieren\"",
+                    "target": "name:\"Beta-Themes beim Start automatisch aktualisieren\""
+                },
+                {
+                    "source": "name:\"Inkompatible Plugins erlauben\"",
+                    "target": "name:\"Inkompatible Plugins erlauben\""
+                },
+                {
+                    "source": "name:\"Benachrichtigungen aktivieren\"",
+                    "target": "name:\"Benachrichtigungen aktivieren\""
+                },
+                {
+                    "source": "name:\"Protokollierung aktivieren\"",
+                    "target": "name:\"Protokollierung aktivieren\""
+                },
+                {
+                    "source": "name:\"Speicherort der BRAT-Protokolldatei\"",
+                    "target": "name:\"Speicherort der BRAT-Protokolldatei\""
+                },
+                {
+                    "source": "name:\"Auto-enable plugins after installation\"",
+                    "target": "name:\"Auto-enable plugins after installation\""
+                },
+                {
+                    "source": "name:\"Auto-update plugins at startup\"",
+                    "target": "name:\"Auto-update plugins at startup\""
+                },
+                {
+                    "source": "name:\"Auto-update themes at startup\"",
+                    "target": "name:\"Auto-update themes at startup\""
+                },
+                {
+                    "source": "name:\"Select latest plugin version by default\"",
+                    "target": "name:\"Select latest plugin version by default\""
+                },
+                {
+                    "source": "name:\"Allow incompatible plugins\"",
+                    "target": "name:\"Allow incompatible plugins\""
+                },
+                {
+                    "source": "name:\"Enable notifications\"",
+                    "target": "name:\"Enable notifications\""
+                },
+                {
+                    "source": "name:\"Enable logging\"",
+                    "target": "name:\"Enable logging\""
+                },
+                {
+                    "source": "name:\"BRAT log file location\"",
+                    "target": "name:\"BRAT log file location\""
+                },
+                {
+                    "source": "name:\"Enable verbose logging\"",
+                    "target": "name:\"Enable verbose logging\""
+                },
+                {
+                    "source": "name:\"Debugging mode\"",
+                    "target": "name:\"Debugging mode\""
+                },
+                {
+                    "source": "name:\"Personal access token\"",
+                    "target": "name:\"Personal access token\""
+                },
+                {
+                    "source": "name:\"GitHub token\"",
+                    "target": "name:\"GitHub token\""
+                },
+                {
+                    "source": "text:`${i.versionLabel(t.version)} ${t.prerelease?i.prereleaseSuffix:\"\"}`",
+                    "target": "text:`${i.versionLabel(t.version)} ${t.prerelease?i.prereleaseSuffix:\"\"}`"
+                },
+                {
+                    "source": "text:\"isDesktopOnly: true\"",
+                    "target": "text:\"isDesktopOnly: true\""
+                },
+                {
+                    "source": "name:\"Plugins: Add a beta plugin for testing (with or without version)\"",
+                    "target": "name:\"Plugins: Add a beta plugin for testing (with or without version)\""
+                },
+                {
+                    "source": "name:\"Plugins: Check for updates to all beta plugins and UPDATE\"",
+                    "target": "name:\"Plugins: Check for updates to all beta plugins and UPDATE\""
+                },
+                {
+                    "source": "name:\"Plugins: Only check for updates to beta plugins, but don't Update\"",
+                    "target": "name:\"Plugins: Only check for updates to beta plugins, but don't Update\""
+                },
+                {
+                    "source": "name:\"Plugins: Choose a single plugin version to update\"",
+                    "target": "name:\"Plugins: Choose a single plugin version to update\""
+                },
+                {
+                    "source": "name:\"Plugins: Choose a single plugin to reinstall\"",
+                    "target": "name:\"Plugins: Choose a single plugin to reinstall\""
+                },
+                {
+                    "source": "name:\"Plugins: Restart a plugin that is already installed\"",
+                    "target": "name:\"Plugins: Restart a plugin that is already installed\""
+                },
+                {
+                    "source": "name:\"Plugins: Disable a plugin - toggle it off\"",
+                    "target": "name:\"Plugins: Disable a plugin - toggle it off\""
+                },
+                {
+                    "source": "name:\"Plugins: Enable a plugin - toggle it on\"",
+                    "target": "name:\"Plugins: Enable a plugin - toggle it on\""
+                },
+                {
+                    "source": "name:\"Plugins: Open the GitHub repository for a plugin\"",
+                    "target": "name:\"Plugins: Open the GitHub repository for a plugin\""
+                },
+                {
+                    "source": "name:\"Plugins: Open the community page for a plugin\"",
+                    "target": "name:\"Plugins: Open the community page for a plugin\""
+                },
+                {
+                    "source": "name:\"Themes: Open the GitHub repository for a theme (appearance)\"",
+                    "target": "name:\"Themes: Open the GitHub repository for a theme (appearance)\""
+                },
+                {
+                    "source": "name:\"Plugins: Open Plugin Settings Tab\"",
+                    "target": "name:\"Plugins: Open Plugin Settings Tab\""
+                },
+                {
+                    "source": "name:\"Themes: Grab a beta theme for testing from a Github repository\"",
+                    "target": "name:\"Themes: Grab a beta theme for testing from a Github repository\""
+                },
+                {
+                    "source": "name:\"Themes: Update beta themes\"",
+                    "target": "name:\"Themes: Update beta themes\""
+                },
+                {
+                    "source": "name:\"Plugins: Remove a graduated plugin from BRAT (keep installed)\"",
+                    "target": "name:\"Plugins: Remove a graduated plugin from BRAT (keep installed)\""
+                },
+                {
+                    "source": "name:\"Plugins: Update a graduated plugin to stable release and remove from BRAT\"",
+                    "target": "name:\"Plugins: Update a graduated plugin to stable release and remove from BRAT\""
+                },
+                {
+                    "source": "name:\"All Commands list\"",
+                    "target": "name:\"All Commands list\""
+                },
+                {
+                    "source": "text:\"Learn more\"",
+                    "target": "text:\"Learn more\""
+                }
+            ]
+        }
+    }
+}
