@@ -1,1 +1,54 @@
-[]
+[
+    {
+        "id": "HadUYeFkRxRHLNECfB7eFu-XSt5nft3E",
+        "plugin": "better-plugins-manager",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "1.0.14",
+        "title": "Better Manager",
+        "description": "Better Manager Localization & Tweaks",
+        "hash": "4213c63f4213c63f4213c63f4213c63f",
+        "created_at": "2026-07-30T06:01:29.581Z",
+        "updated_at": "2026-07-30T06:01:29.581Z"
+    },
+    {
+        "id": "u9Yye1TG43YogUqWa5zXl8YdK5yLYcEx",
+        "plugin": "better-plugins-manager",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "1.0.14",
+        "title": "Better Manager",
+        "description": "Better Manager Localization & Tweaks",
+        "hash": "4213c63f4213c63f4213c63f4213c63f",
+        "created_at": "2026-07-30T06:01:29.584Z",
+        "updated_at": "2026-07-30T06:01:29.584Z"
+    },
+    {
+        "id": "IZ0PF18It2Mz4uW0nH1Amx_HDhlY4qsO",
+        "plugin": "obsidian42-brat",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "2.2.0",
+        "title": "BRAT",
+        "description": "BRAT Localization & Tweaks",
+        "hash": "00bbb39900bbb39900bbb39900bbb399",
+        "created_at": "2026-07-30T06:01:29.582Z",
+        "updated_at": "2026-07-30T06:01:29.582Z"
+    },
+    {
+        "id": "zBcRORV7VvlF0IMU5nVvcAFTtkB-bmMn",
+        "plugin": "obsidian42-brat",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "2.2.0",
+        "title": "BRAT",
+        "description": "BRAT Localization & Tweaks",
+        "hash": "00bbb39900bbb39900bbb39900bbb399",
+        "created_at": "2026-07-30T06:01:29.585Z",
+        "updated_at": "2026-07-30T06:01:29.585Z"
+    }
+]
