@@ -11,18 +11,5 @@
     "hash": "4213c63f4213c63f4213c63f4213c63f",
     "created_at": "2026-07-30T06:01:29.581Z",
     "updated_at": "2026-07-30T06:01:29.581Z"
-  },
-  {
-    "id": "zBcRORV7VvlF0IMU5nVvcAFTtkB-bmMn",
-    "plugin": "obsidian42-brat",
-    "type": "plugin",
-    "language": "zh-cn",
-    "version": "1.0.0",
-    "supported_versions": "2.2.0",
-    "title": "BRAT",
-    "description": "BRAT Localization & Tweaks",
-    "hash": "00bbb39900bbb39900bbb39900bbb399",
-    "created_at": "2026-07-30T06:01:29.585Z",
-    "updated_at": "2026-07-30T06:01:29.585Z"
   }
 ]
